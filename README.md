@@ -1,24 +1,8 @@
 # README
+ensure docker is running in shell by typing `docker ps`. If connection fails, run
+`eval "$(docker-machine env default)"`
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Then, run the following:
 
-Things you may want to cover:
+1. `docker build .`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
